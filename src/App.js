@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+import luna1 from './images/lunaPic.JPG';
+import luna2 from './images/luna1month.JPG';
+import luna3 from './images/luna2month.JPG';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Luna Rae's Desktop App
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={luna1} className="App-logo" alt="logo" />
+        <img src={luna2} className="App-logo2" alt="logo" />
+        <img src={luna3} className="App-logo3" alt="logo" />
+      
       </header>
     </div>
   );
