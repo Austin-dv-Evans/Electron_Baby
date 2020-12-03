@@ -17,28 +17,36 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 14s linear;
     border-radius: 80px;
   }
   .App-logo2 {
-    animation: App-logo-spin infinite 18s linear;
+    animation: App-logo-spin infinite 16s linear;
     border-radius: 80px;
   }
   .App-logo3 {
-    animation: App-logo-spin infinite 15s linear;
+    animation: App-logo-spin infinite 13s linear;
     border-radius: 80px;
   }
 }
 
 .App-header {
   background-color: #650e70;
-  min-height: 100vh;
+  min-height: 3em;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(253, 220, 253);
+}
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+  background-color: rgb(253, 220, 253);
 }
 
 .App-link {
